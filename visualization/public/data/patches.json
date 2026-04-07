@@ -1361,7 +1361,7 @@
             },
             {
               "raw_text": "Nitro Packs upgrade removed",
-              "change_type": "nerf"
+              "change_type": "buff"
             },
             {
               "raw_text": "Combat Drugs passive added: heals 2 HP/sec after 10 seconds without taking damage",
@@ -1391,7 +1391,7 @@
             },
             {
               "raw_text": "Energy bar removed",
-              "change_type": "nerf"
+              "change_type": "buff"
             },
             {
               "raw_text": "Dual anti-air mode switching added: Explosive Payload (splash, +6 vs Light) and High Impact Payload (24 single-target damage)",
@@ -1461,7 +1461,7 @@
           "changes": [
             {
               "raw_text": "Damage changed from 15 (+20 vs Armored) to 35 flat damage",
-              "change_type": "mixed"
+              "change_type": "buff"
             }
           ]
         },
@@ -2930,8 +2930,8 @@
           "entity_id": "protoss-immortal",
           "changes": [
             {
-              "raw_text": "\"Barrier\" is now a passive ability, and its cooldown is reduced from 43 to 32",
-              "change_type": "mixed"
+              "raw_text": "\"Barrier\" is now a passive ability, and its cooldown is reduced from 43 to 32.",
+              "change_type": "buff"
             }
           ]
         },
@@ -2939,15 +2939,15 @@
           "entity_id": "protoss-tempest",
           "changes": [
             {
-              "raw_text": "Removed \"Disruption Blast\" ability",
+              "raw_text": "Removed \"Disruption Blast\" ability.",
               "change_type": "nerf"
             },
             {
-              "raw_text": "Anti-ground weapon range increased from 8 to 10",
+              "raw_text": "Anti-ground weapon range increased from 8 to 10.",
               "change_type": "buff"
             },
             {
-              "raw_text": "Anti-ground weapon damage increased from 35 to 40",
+              "raw_text": "Anti-ground weapon damage increased from 35 to 40.",
               "change_type": "buff"
             }
           ]
@@ -2956,7 +2956,7 @@
           "entity_id": "terran-cyclone",
           "changes": [
             {
-              "raw_text": "Anti-ground weapon range increased from 4 to 6",
+              "raw_text": "Anti-ground weapon range increased from 4 to 6.",
               "change_type": "buff"
             },
             {
@@ -2964,8 +2964,8 @@
               "change_type": "buff"
             },
             {
-              "raw_text": "\"Mag-Field Launchers\" upgrade removed",
-              "change_type": "nerf"
+              "raw_text": "\"Mag-Field Launchers\" upgrade removed.",
+              "change_type": "buff"
             }
           ]
         },
@@ -2973,8 +2973,8 @@
           "entity_id": "zerg-hydralisk",
           "changes": [
             {
-              "raw_text": "\"Evolve Grooved Spines\" upgrade removed, and +1 range is now added back to \"Muscular Augments\" upgrade",
-              "change_type": "mixed"
+              "raw_text": "\"Evolve Grooved Spines\" upgrade removed, and +1 range is now added back to \"Muscular Augments\" upgrade.",
+              "change_type": "buff"
             }
           ]
         },
@@ -2982,7 +2982,7 @@
           "entity_id": "zerg-viper",
           "changes": [
             {
-              "raw_text": "Reduced \"Blinding Cloud\" ability duration from 10 seconds to 6 seconds",
+              "raw_text": "Reduced \"Blinding Cloud\" ability duration from 10 seconds to 6 seconds.",
               "change_type": "nerf"
             }
           ]
@@ -7862,5 +7862,5 @@
       "liquipedia_url": "https://liquipedia.net/starcraft2/Zergling"
     }
   ],
-  "generated_at": "2026-04-06T15:27:50.475324+00:00"
+  "generated_at": "2026-04-07T10:17:31.009990+00:00"
 }

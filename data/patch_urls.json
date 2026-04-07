@@ -132,7 +132,8 @@
   {
     "version": "3.9.0",
     "url": "https://news.blizzard.com/en-gb/starcraft2/20399161/legacy-of-the-void-balance-update-december-8-2016",
-    "liquipedia": "https://liquipedia.net/starcraft2/Patch_3.9.0"
+    "liquipedia": "https://liquipedia.net/starcraft2/Patch_3.9.0",
+    "parse_hint": "Mag-Field Launchers removal is a BUFF: the +2 range it gave is now in the base stats (range 4→6 in the same patch). EXCLUDE subgroup priority changes — UI ordering, not balance."
   },
   {
     "version": "3.8.0",

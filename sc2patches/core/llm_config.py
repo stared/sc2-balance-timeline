@@ -9,12 +9,13 @@ import sys
 ALLOWED_MODELS = [
     "openai/gpt-5.2",
     "google/gemini-3-pro-preview",
+    "google/gemini-3.1-pro-preview",
     "anthropic/claude-opus-4.5",
     "google/gemini-3-flash-preview",
 ]
 
 # Default model for most operations
-DEFAULT_MODEL = "google/gemini-3-pro-preview"
+DEFAULT_MODEL = "google/gemini-3.1-pro-preview"
 
 
 def get_openrouter_api_key() -> str:
