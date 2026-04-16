@@ -6783,7 +6783,7 @@
           "entity_id": "protoss-dark_templar",
           "changes": [
             {
-              "raw_text": "Blink attack delay reduced from 0.75 to 0.25",
+              "raw_text": "Dark Templar Blink attack delay reduced from 0.75 to 0.25.",
               "change_type": "buff"
             }
           ]
@@ -6792,7 +6792,7 @@
           "entity_id": "protoss-disruptor",
           "changes": [
             {
-              "raw_text": "Purification cooldown reduced from 21.4 seconds to 17 seconds",
+              "raw_text": "Purification cooldown reduced from 21.4 seconds to 17 seconds.",
               "change_type": "buff"
             }
           ]
@@ -6801,15 +6801,15 @@
           "entity_id": "protoss-high_templar",
           "changes": [
             {
-              "raw_text": "Psionic Storm changed from 80 damage over 3 seconds to 140 damage over 6 seconds (26.7 DPS > 23.3 DPS)",
+              "raw_text": "Psionic Storm changed from 80 damage over 3 seconds to 140 damage over 6 seconds (26.7 DPS > 23.3 DPS).",
               "change_type": "mixed"
             },
             {
-              "raw_text": "Psionic Storm radius increased from 1.5 to 2",
+              "raw_text": "Psionic Storm radius increased from 1.5 to 2.",
               "change_type": "buff"
             },
             {
-              "raw_text": "Psionic Storm range reduced from 9 to 8",
+              "raw_text": "Psionic Storm range reduced from 9 to 8.",
               "change_type": "nerf"
             }
           ]
@@ -6818,7 +6818,7 @@
           "entity_id": "protoss-mothership",
           "changes": [
             {
-              "raw_text": "Movement speed reduced from 2.83 to 2.25",
+              "raw_text": "Mothership movement speed reduced from 2.83 to 2.25.",
               "change_type": "nerf"
             }
           ]
@@ -6827,11 +6827,11 @@
           "entity_id": "protoss-observer",
           "changes": [
             {
-              "raw_text": "Surveillance mode now reveals the Observers",
+              "raw_text": "Surveillance mode now reveals the Observers.",
               "change_type": "nerf"
             },
             {
-              "raw_text": "Surveillance mode increases vision from 13.75 to 15",
+              "raw_text": "Surveillance mode increases vision from 13.75 to 15.",
               "change_type": "buff"
             }
           ]
@@ -6840,7 +6840,7 @@
           "entity_id": "protoss-oracle",
           "changes": [
             {
-              "raw_text": "Stasis Ward duration reduced from 170 seconds to 90 seconds",
+              "raw_text": "Stasis Ward duration reduced from 170 seconds to 90 seconds.",
               "change_type": "nerf"
             }
           ]
@@ -6849,11 +6849,11 @@
           "entity_id": "protoss-shield_battery",
           "changes": [
             {
-              "raw_text": "Energy Recharge grant has been reduced from 100 to 50 energy",
+              "raw_text": "Energy Recharge grant has been reduced from 100 to 50 energy.",
               "change_type": "nerf"
             },
             {
-              "raw_text": "Energy Recharge cooldown reduced from 60 to 45 seconds",
+              "raw_text": "Energy Recharge cooldown reduced from 60 to 45 seconds.",
               "change_type": "buff"
             }
           ]
@@ -6862,7 +6862,7 @@
           "entity_id": "terran-banshee",
           "changes": [
             {
-              "raw_text": "Hyperflight Rotors research time decreased to from 100 to 79 seconds",
+              "raw_text": "Hyperflight Rotors research time decreased to from 100 to 79 seconds.",
               "change_type": "buff"
             }
           ]
@@ -6871,12 +6871,12 @@
           "entity_id": "terran-ghost",
           "changes": [
             {
-              "raw_text": "Supply reduced from 3 to 2",
+              "raw_text": "Ghost supply reduced from 3 to 2.",
               "change_type": "buff"
             },
             {
-              "raw_text": "Now has light attribute",
-              "change_type": "mixed"
+              "raw_text": "Ghost now has light attribute.",
+              "change_type": "nerf"
             }
           ]
         },
@@ -6884,7 +6884,7 @@
           "entity_id": "terran-liberator",
           "changes": [
             {
-              "raw_text": "Sight reduced from 10 to 9",
+              "raw_text": "Liberator Sight reduced from 10 to 9.",
               "change_type": "nerf"
             }
           ]
@@ -6893,7 +6893,7 @@
           "entity_id": "terran-siege_tank",
           "changes": [
             {
-              "raw_text": "Can no longer be abducted when in siege mode",
+              "raw_text": "Siege Tank can no longer be abducted when in siege mode.",
               "change_type": "buff"
             }
           ]
@@ -6902,7 +6902,7 @@
           "entity_id": "terran-viking",
           "changes": [
             {
-              "raw_text": "Cost reduced from 150/75 to 125/75",
+              "raw_text": "Viking cost reduced from 150/75 to 125/75.",
               "change_type": "buff"
             }
           ]
@@ -6911,7 +6911,7 @@
           "entity_id": "terran-widow_mine",
           "changes": [
             {
-              "raw_text": "Drilling Claws effectiveness increased from 1.07 to 0.71 seconds",
+              "raw_text": "Drilling Claws effectiveness increased from 1.07 to 0.71 seconds.",
               "change_type": "buff"
             }
           ]
@@ -6920,7 +6920,16 @@
           "entity_id": "zerg-baneling",
           "changes": [
             {
-              "raw_text": "Centrifugal Hooks now give +5 HP bonus to Banelings again",
+              "raw_text": "Centrifugal Hooks now give +5 HP bonus to Banelings again.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-brood_lord",
+          "changes": [
+            {
+              "raw_text": "Fixed an issue where Broodlings could greatly delay launching or fail to launch toward their target, depending on their position relative to the broodlord.",
               "change_type": "buff"
             }
           ]
@@ -6929,19 +6938,19 @@
           "entity_id": "zerg-infestor",
           "changes": [
             {
-              "raw_text": "Microbial Shroud reduces range attacks by 50% damage",
+              "raw_text": "Microbial Shroud reduces range attacks by 50% damage.",
               "change_type": "buff"
             },
             {
-              "raw_text": "Microbial Shroud effect no longer persists for a few seconds after the unit has left the shroud",
+              "raw_text": "Microbial Shroud effect no longer persists for a few seconds after the unit has left the shroud.",
               "change_type": "nerf"
             },
             {
-              "raw_text": "Microbial Shroud cost increased from 75 to 100",
+              "raw_text": "Microbial Shroud cost increased from 75 to 100.",
               "change_type": "nerf"
             },
             {
-              "raw_text": "Microbial Shroud now requires an upgrade again (150/150)",
+              "raw_text": "Microbial Shroud now requires an upgrade again (150/150).",
               "change_type": "nerf"
             }
           ]
@@ -6950,11 +6959,11 @@
           "entity_id": "zerg-spire",
           "changes": [
             {
-              "raw_text": "Cost reduced from 200/200 to 150/150",
+              "raw_text": "Spire cost reduced from 200/200 to 150/150.",
               "change_type": "buff"
             },
             {
-              "raw_text": "Build time reduced from 71 seconds to 66 seconds",
+              "raw_text": "Spire build time reduced from 71 seconds to 66 seconds.",
               "change_type": "buff"
             }
           ]
@@ -6971,7 +6980,7 @@
           "entity_id": "protoss-high_templar",
           "changes": [
             {
-              "raw_text": "Psionic Storm damage was reduced from 140 to 110 over 6 seconds (23.3 DPS > 18.3 DPS)",
+              "raw_text": "Psionic Storm damage was reduced from 140 to 110 over 6 seconds (23.3 DPS > 18.3 DPS).",
               "change_type": "nerf"
             }
           ]
@@ -6980,7 +6989,7 @@
           "entity_id": "terran-ghost",
           "changes": [
             {
-              "raw_text": "HP increased from 100 to 125",
+              "raw_text": "Ghost HP increased from 100 to 125.",
               "change_type": "buff"
             }
           ]
@@ -6989,16 +6998,11 @@
           "entity_id": "zerg-brood_lord",
           "changes": [
             {
-              "raw_text": "Speed reduced from 2.62 to 2.24",
+              "raw_text": "Broodlord speed reduced from 2.62 to 2.24.",
               "change_type": "nerf"
-            }
-          ]
-        },
-        {
-          "entity_id": "zerg-viper",
-          "changes": [
+            },
             {
-              "raw_text": "Consume ability will now stop when the building is no lower than 7.5 HP",
+              "raw_text": "Fixed an issue with Broodlings' attack speed.",
               "change_type": "buff"
             }
           ]
@@ -7862,5 +7866,5 @@
       "liquipedia_url": "https://liquipedia.net/starcraft2/Zergling"
     }
   ],
-  "generated_at": "2026-04-07T10:17:31.009990+00:00"
+  "generated_at": "2026-04-16T10:47:43.676868+00:00"
 }
