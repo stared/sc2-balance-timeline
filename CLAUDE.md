@@ -103,7 +103,7 @@ Each stage:
 
 **API Keys:** `OPENROUTER_API_KEY` is stored in `.env` file (not committed to git)
 
-**LLM Model:** `google/gemini-3-pro-preview` via OpenRouter (defined in `sc2patches/core/llm_config.py`)
+**LLM Model:** `google/gemini-3.1-pro-preview` via OpenRouter (defined in `sc2patches/core/llm_config.py`)
 
 ## Pipeline Integrity
 
