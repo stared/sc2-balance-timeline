@@ -7008,6 +7008,622 @@
           ]
         }
       ]
+    },
+    {
+      "version": "5.0.16",
+      "date": "2026-05-28",
+      "url": "https://news.blizzard.com/en-us/article/24276667/starcraft-ii-5-0-16-ptr-patch-notes",
+      "patch_type": "balance",
+      "entities": [
+        {
+          "entity_id": "neutral-mineral_field",
+          "changes": [
+            {
+              "raw_text": "Default Large Mineral patch resource count reduced from 1,800 to 1,600.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Default Small Mineral patch resource count increased from 900 to 1,200.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Total Default Minerals per base increased from 10,800 to 11,200.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "neutral-vespene_geyser",
+          "changes": [
+            {
+              "raw_text": "Default Vespene Geysers' resource count increased from 2,250 to 2,500.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Total Default Gas per base increased from 4,500 to 5,000.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Rich Vespene Gas Geyser harvest return value decreased from 8 to 6.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "neutral-xelnaga_tower",
+          "changes": [
+            {
+              "raw_text": "Xel'naga towers can now be selected through the Fog of War. Xel'naga Towers now show their vision range radius when selected.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-adept",
+          "changes": [
+            {
+              "raw_text": "Warpgate Cooldown increased from 20 to 22.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Pre-Warpgate Production Time decreased from 30 to 28.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Post-Warpgate Production Time set to 18.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-colossus",
+          "changes": [
+            {
+              "raw_text": "Fixed an issue where Colossus could not be created/unloaded in space an air unit already was.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-dark_templar",
+          "changes": [
+            {
+              "raw_text": "Warpgate Cooldown increased from 32 to 35.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Pre-Warpgate Production Time increased from 32 to 40.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Post-Warpgate Production Time set to 26.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-disruptor",
+          "changes": [
+            {
+              "raw_text": "Now has a 'phantom attack' weapon.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Purification Nova cooldown/firing status should now be much more obvious due to increased colour states.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-fleet_beacon",
+          "changes": [
+            {
+              "raw_text": "Fixed an issue where it could be difficult to distinguish if a research structure was active.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-gateway",
+          "changes": [
+            {
+              "raw_text": "Warpgate Research moved to the Gateway from the Cybernetics Core.",
+              "change_type": "mixed"
+            },
+            {
+              "raw_text": "Warpgate Research speeds up Gateway unit production time by 35%.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "'Transform to Warpgate' cost increased from 0/(0) to 50/(50).",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Warp-in Time is no longer determined by 'slow power fields'.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Warp-in Time decreased to 3s (from 3.6s and 11.4s).",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-high_templar",
+          "changes": [
+            {
+              "raw_text": "Warpgate Cooldown increased from 32 to 35.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Pre-Warpgate Production Time increased from 32 to 40.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Post-Warpgate Production Time set to 26.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Psi Storm total damage reduced from 110 to 100.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "High Templar are now less likely to aggro towards faraway targets.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-nexus",
+          "changes": [
+            {
+              "raw_text": "Supplies provided reduced from 15 to 13.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Command card now displays charge counters and minimap displays all Nexus range radius.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-oracle",
+          "changes": [
+            {
+              "raw_text": "Fixed an issue where commanding Oracles to build Stasis Wards in areas inside their range could result in slower execution than being commanded to build outside their range.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Fixed an issue where players attempting to attack a Stasis Ward could easily accidentally move command underneath it instead.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-probe",
+          "changes": [
+            {
+              "raw_text": "Starting workers reduced from 12 to 8.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Workers adjacent and move commanding to a geyser now update their command to a gather order if a refinement structure gets built.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-sentry",
+          "changes": [
+            {
+              "raw_text": "Warpgate Cooldown decreased from 23 to 22.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Pre-Warpgate Production Time increased from 23 to 24.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Post-Warpgate Production Time set to 16.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Hallucinations automatically inherit the current order queue of the casting Sentry.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Beam attack visuals should now feel much more responsive to control.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-stalker",
+          "changes": [
+            {
+              "raw_text": "Warpgate Cooldown decreased from 23 to 22.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Pre-Warpgate Production Time increased from 27 to 28.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Post-Warpgate Production Time set to 18.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-twilight_council",
+          "changes": [
+            {
+              "raw_text": "Fixed an issue where it could be difficult to distinguish if a research structure was active.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-warp_prism",
+          "changes": [
+            {
+              "raw_text": "Can now issue 'Load Nearby Units' commands.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Fixed an issue where the Warp Prism would not display an unload visual model indicator.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Fixed an issue where the Warp Prism would not display a load range radius actor when the ability was being targeted.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Fixed an issue where the Warp Prism movement was highly variant/ sluggish if ordered to queue pickup orders or pick up units slightly out of immediate range.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Commands to unsiege Warp Prisms will now be issued to all Warp Prisms in the selection.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "The Warp Prism will now attempt to immediately siege when instructed rather than prioritizing deceleration.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-zealot",
+          "changes": [
+            {
+              "raw_text": "Warpgate Cooldown increased from 20 to 22.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Pre-Warpgate Production Time increased from 27 to 28.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Post-Warpgate Production Time set to 18.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "terran-armory",
+          "changes": [
+            {
+              "raw_text": "Fixed an issue where it could be difficult to distinguish if a research structure was active.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "terran-command_center",
+          "changes": [
+            {
+              "raw_text": "Supplies provided reduced from 15 to 13.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "terran-ghost",
+          "changes": [
+            {
+              "raw_text": "Supply increased from 2 to 3.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Health reduced from 125 to 100.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Attack damage changed from 10 + 10 vs Light to 20.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Attack range increased from 6 to 7.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Steady Targeting: Damage increased from 130 + 40 vs Psionic to 170.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Steady Targeting: Energy cost increased from 50 to 75.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Steady Targeting: No longer cancels upon taking damage.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "terran-medivac",
+          "changes": [
+            {
+              "raw_text": "Can now issue 'Load Nearby Units' commands.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Subgroup Priority order updated from (Raven, Ghost, Battlecruiser, Marine, Marauder, SiegeTank) to (Ghost, Marine+Marauder, Raven, Battlecruiser, Siegetank).",
+              "change_type": "mixed"
+            }
+          ]
+        },
+        {
+          "entity_id": "terran-orbital_command",
+          "changes": [
+            {
+              "raw_text": "Mule Repair is now set to auto-cast by default (Mules with a harvest order still do not attempt to repair units).",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "terran-reaper",
+          "changes": [
+            {
+              "raw_text": "Fixed an issue where the KD8 Charge lacked a placement model and AOE effect radius cursor indicator.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "terran-scv",
+          "changes": [
+            {
+              "raw_text": "Starting workers reduced from 12 to 8.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Workers adjacent and move commanding to a geyser now update their command to a gather order if a refinement structure gets built.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-drone",
+          "changes": [
+            {
+              "raw_text": "Starting workers reduced from 12 to 8.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Workers adjacent and move commanding to a geyser now update their command to a gather order if a refinement structure gets built.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-evolution_chamber",
+          "changes": [
+            {
+              "raw_text": "Carapace Upgrades Level 1 cost decreased from 150/150 to 100/100.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Carapace Upgrades Level 2 cost decreased from 200/200 to 150/150.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Carapace Upgrades Level 3 cost decreased from 250/250 to 200/200.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Fixed an issue where it could be difficult to distinguish if a research structure was active.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-hatchery",
+          "changes": [
+            {
+              "raw_text": "Supplies provided reduced from 6 to 4.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Creep Spread/Recede rate slowed from 0.45 to 0.55.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Larva/Eggs will no longer collide with/block player structures or units.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-hive",
+          "changes": [
+            {
+              "raw_text": "Supplies provided reduced from 6 to 4.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-infestor",
+          "changes": [
+            {
+              "raw_text": "Microbial Shroud range increased from 9 to 12.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Microbial Shroud can now be cast without requiring an upgrade from the Infestation Pit.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Neural Parasite on builder SCVs will only expire at structure completion.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Now has an auto-attack weapon.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Fixed an issue where Microbial Shroud's appearance happened gradually and unnoticeably due to lacking a sufficient impact model for the cloud.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Neural Parasite will now add the target unit to the current selection if the selection only contains one infestor.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-lair",
+          "changes": [
+            {
+              "raw_text": "Supplies provided reduced from 6 to 4.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-lurker",
+          "changes": [
+            {
+              "raw_text": "Fixed an issue where Lurker Attack Spike sounds could be heard through the Fog of War.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Eggs now take less time to appear due to faster birth animation.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-mutalisk",
+          "changes": [
+            {
+              "raw_text": "Mutalisk Glaives now prioritize targets.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Arc slop increased to 180.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-overlord",
+          "changes": [
+            {
+              "raw_text": "Speed without Pneumatized Carapace decreased from 0.9 to 0.7.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Can now issue 'Load Nearby Units' commands.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Fixed an issue where casting Generate Creep would only affect a subselection of Overlords or Transport Overlords rather than both variations.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-overseer",
+          "changes": [
+            {
+              "raw_text": "Changelings automatically inherit the current order queue of the casting Overseer.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Changelings’ deaths are contagious to other nearby Changelings.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Improved an issue where units with their primary attack order on a changeling would lose their order if the Changeling subsequently disguised itself.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-queen",
+          "changes": [
+            {
+              "raw_text": "Fixed an issue where Creep Tumors lacked placement and placeholder models when spreading themselves.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Allowed re-issuing inject during ongoing cast so orders are not offloaded to others queen.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Active Creep Tumors will now take selection precedence over Inactive Tumors.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Active Creep Tumors in a control group at the time of exhausting their charge will now transfer control group membership to the spread tumor.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-ravager",
+          "changes": [
+            {
+              "raw_text": "Ravagers are now less likely to aggro towards faraway targets.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-spore_crawler",
+          "changes": [
+            {
+              "raw_text": "Damage against Biological increased from 20 (+10 Biological) to 20 (+15 Biological).",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-swarm_host",
+          "changes": [
+            {
+              "raw_text": "Locusts that were previously uncommandable during their swoop animation are now also unselectable (if already selected they will stay selected).",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-viper",
+          "changes": [
+            {
+              "raw_text": "Abduct now considers Sieged Tanks a valid target.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Fixed an issue where killing a Viper prior to its Abduct tongue connecting with a target would not cancel the abduct.",
+              "change_type": "nerf"
+            }
+          ]
+        }
+      ]
     }
   ],
   "units": [
@@ -7866,5 +8482,5 @@
       "liquipedia_url": "https://liquipedia.net/starcraft2/Zergling"
     }
   ],
-  "generated_at": "2026-04-16T10:47:43.676868+00:00"
+  "generated_at": "2026-05-29T16:50:10.752511+00:00"
 }
