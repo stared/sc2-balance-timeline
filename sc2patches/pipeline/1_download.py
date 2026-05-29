@@ -21,6 +21,7 @@ from rich.console import Console
 from rich.progress import BarColumn, Progress, SpinnerColumn, TaskProgressColumn, TextColumn
 
 from sc2patches.core.download import DownloadError, download_patch, fetch_html, validate_patch_html
+from sc2patches.core.extraction import ExtractionError
 from sc2patches.core.logger import PipelineLogger
 
 console = Console()
@@ -165,7 +166,7 @@ def main() -> None:
 
             try:
                 additional_downloaded += process_patch(patch_info, html_dir, markdown_dir, skip_existing, logger)
-            except DownloadError as e:
+            except (DownloadError, ExtractionError) as e:
                 logger.log_failure(version, str(e))
                 console.print(f"[red]  ✗ {version}:[/red] {str(e)[:80]}")
 
