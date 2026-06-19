@@ -84,6 +84,7 @@ def validate_patch_html(html: str, url: str) -> None:
         "patch notes",
         "balance changes",
         "Balance Changes",
+        "PTR Update",
     ]
 
     has_homepage_text = any(ind in html for ind in homepage_indicators)

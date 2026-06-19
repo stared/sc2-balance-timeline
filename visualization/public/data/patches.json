@@ -7624,6 +7624,120 @@
           ]
         }
       ]
+    },
+    {
+      "version": "5.0.16 PTR2",
+      "date": "2026-06-19",
+      "url": "https://news.blizzard.com/en-us/article/24287241/starcraft-ii-5-0-16-ptr-update",
+      "patch_type": "balance",
+      "entities": [
+        {
+          "entity_id": "protoss-cybernetics_core",
+          "changes": [
+            {
+              "raw_text": "Warpgate Research has been reverted to be researched on the Cybercore.",
+              "change_type": "mixed"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-disruptor",
+          "changes": [
+            {
+              "raw_text": "Disruptor Phantom Weapon attack range decreased by 0.65.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-gateway",
+          "changes": [
+            {
+              "raw_text": "Unit warp-in time slowed from 3s (PTR1) to 4s.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Transform to Warpgate cost is 25/25 from 50/50 (PTR1).",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Various Warpgate Gateway Train time adjustments.",
+              "change_type": "mixed"
+            },
+            {
+              "raw_text": "Warpgate Research provides a 40% boost to Gateways, up from 35%.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-oracle",
+          "changes": [
+            {
+              "raw_text": "Reduced artifical Oracle Stasis Ward deceleration.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-shield_battery",
+          "changes": [
+            {
+              "raw_text": "Shield battery Energy set to 75.",
+              "change_type": "mixed"
+            }
+          ]
+        },
+        {
+          "entity_id": "terran-ghost",
+          "changes": [
+            {
+              "raw_text": "Ghost damage reduced from 20 (PTR1) to 15.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Ghost movement speed reduced from 3.94 to 3.85.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-hatchery",
+          "changes": [
+            {
+              "raw_text": "Larva spawn rate increased from 10.7s to 9s.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-overlord",
+          "changes": [
+            {
+              "raw_text": "Overlord speed increased from 0.7 (PTR1) to 0.85.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-queen",
+          "changes": [
+            {
+              "raw_text": "Queen mineral cost decreased from 175 to 150.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-roach",
+          "changes": [
+            {
+              "raw_text": "Burrowed Roach attack target priority reduced from 20 to 19.",
+              "change_type": "mixed"
+            }
+          ]
+        }
+      ]
     }
   ],
   "units": [
@@ -8482,5 +8596,5 @@
       "liquipedia_url": "https://liquipedia.net/starcraft2/Zergling"
     }
   ],
-  "generated_at": "2026-05-29T16:50:10.752511+00:00"
+  "generated_at": "2026-06-19T15:07:11.280146+00:00"
 }
