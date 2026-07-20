@@ -7546,6 +7546,111 @@
           ]
         }
       ]
+    },
+    {
+      "version": "5.0.16b HF",
+      "date": "2026-07-16",
+      "url": "https://news.blizzard.com/en-us/article/24291949/starcraft-ii-5-0-16b-hotfix-patch-notes",
+      "patch_type": "balance",
+      "entities": [
+        {
+          "entity_id": "protoss-adept",
+          "changes": [
+            {
+              "raw_text": "Adept damage modifier per attack upgrade increased from 1(+1 vs Light) to 2(+2 vs Light).",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-colossus",
+          "changes": [
+            {
+              "raw_text": "Colossus damaged increased from 10(+5 vs Light) to 12(+3 vs Light).",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-disruptor",
+          "changes": [
+            {
+              "raw_text": "Disruptor phantom weapon range decreased from 11.35 to 7.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-gateway",
+          "changes": [
+            {
+              "raw_text": "Gateway unit train time reduction bonus from researching Warp Gate increased from 40% to 50%.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Gateway/Warpgate transformation duration is now always 4s (reduced from 7s and 5s).",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Warpgates now have selection subgroup priority over Gateways.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Warpgates and Gateways are now considered distinct units when issuing 'select all' commands.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Gateways and Warpgates can now be issued orders to transform regardless of which is the primary subgroup selection.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-sentry",
+          "changes": [
+            {
+              "raw_text": "Reverted spawned Hallucinations inheriting their caster's order queue.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "terran-command_center",
+          "changes": [
+            {
+              "raw_text": "Command Center cost reduced from 400 to 300 minerals.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "terran-cyclone",
+          "changes": [
+            {
+              "raw_text": "Fixed an issue in Team games where Cyclones could fail to deal damage to units detected by an ally.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "terran-ghost",
+          "changes": [
+            {
+              "raw_text": "Ghost Supply reduced from 3 to 2.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "terran-planetary_fortress",
+          "changes": [
+            {
+              "raw_text": "Planetary Fortress cost increased from 150/150 to 250/150.",
+              "change_type": "nerf"
+            }
+          ]
+        }
+      ]
     }
   ],
   "units": [
@@ -8404,5 +8509,5 @@
       "liquipedia_url": "https://liquipedia.net/starcraft2/Zergling"
     }
   ],
-  "generated_at": "2026-07-09T09:06:13.034035+00:00"
+  "generated_at": "2026-07-20T22:23:39.135139+00:00"
 }
