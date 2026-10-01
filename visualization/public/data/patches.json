@@ -7651,6 +7651,393 @@
           ]
         }
       ]
+    },
+    {
+      "version": "5.0.17",
+      "date": "2026-09-30",
+      "url": "https://news.blizzard.com/en-us/article/24301513/starcraft-ii-5-0-17-ptr-patch-notes",
+      "patch_type": "balance",
+      "entities": [
+        {
+          "entity_id": "neutral-mineral_field",
+          "changes": [
+            {
+              "raw_text": "Default Large Mineral patch resource count increased from 1,600 to 1,800.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Default Small Mineral patch resource count decreased from 1,100 to 900.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "neutral-vespene_geyser",
+          "changes": [
+            {
+              "raw_text": "Default Vespene Geyser resource count increased from 2,000 to 2,250.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Total Default Gas per base increased from 4,500 to 5,000.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-adept",
+          "changes": [
+            {
+              "raw_text": "Warpgate cooldown values: Adept: from 22 to 20",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Adept damage modifier per attack upgrade decreased from 2(+2 vs Light) to 1(+1 vs Light).",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Train time reduced from 33 seconds to 30 seconds.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-colossus",
+          "changes": [
+            {
+              "raw_text": "Colossus damage decreased from 12(+3 vs Light) to 10(+5 vs Light).",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-dark_templar",
+          "changes": [
+            {
+              "raw_text": "Warpgate cooldown values: Dark Templar: from 35 to 32",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-disruptor",
+          "changes": [
+            {
+              "raw_text": "No longer has phantom weapon.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-gateway",
+          "changes": [
+            {
+              "raw_text": "Researching Warpgate no longer speeds up production time of units from Gateways.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Warp-in Time is determined by 'slow power fields'.",
+              "change_type": "mixed"
+            },
+            {
+              "raw_text": "Universal warp-in Time splits from 4s to 11s in slow zones and 3.6 in fast zones.",
+              "change_type": "mixed"
+            },
+            {
+              "raw_text": "'Transform to Warpgate' ability now costs 0/(0) down from 25/(25).",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-high_templar",
+          "changes": [
+            {
+              "raw_text": "Warpgate cooldown values: High Templar: from 35 to 32",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Damage increased from 100 to 110.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-mothership",
+          "changes": [
+            {
+              "raw_text": "Shields increased from 200 to 350. Life decreased from 400 to 350.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-nexus",
+          "changes": [
+            {
+              "raw_text": "Supplies provided increased from 13 to 15.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-probe",
+          "changes": [
+            {
+              "raw_text": "Worker Start Count increased from 8 to 12.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-sentry",
+          "changes": [
+            {
+              "raw_text": "Warpgate cooldown values: Sentry: from 22 to 23",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-shield_battery",
+          "changes": [
+            {
+              "raw_text": "Starting energy when placed near a Nexus will be 100, otherwise 50.",
+              "change_type": "mixed"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-stalker",
+          "changes": [
+            {
+              "raw_text": "Warpgate cooldown values: Stalker: from 22 to 23",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "protoss-zealot",
+          "changes": [
+            {
+              "raw_text": "Warpgate cooldown values: Zealot: from 22 to 20",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "terran-command_center",
+          "changes": [
+            {
+              "raw_text": "Cost increased from 300 to 400.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Supplies increased from 13 to 15.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "terran-ghost",
+          "changes": [
+            {
+              "raw_text": "Health increased from 100 to 125.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Attack damage changed from 15 to 10 (+10 vs Light).",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Attack range reduced from 7 to 6.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Movement speed increased from 3.85 to 3.94.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Steady Targeting: Damage reduced from 170 to 130 (+40 vs Psionic).",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Steady Targeting: Energy cost reduced from 75 to 50.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Steady Targeting: Cancels upon taking damage.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "terran-reaper",
+          "changes": [
+            {
+              "raw_text": "Build time reduced from 34 seconds to 32 seconds.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "terran-scv",
+          "changes": [
+            {
+              "raw_text": "Worker Start Count increased from 8 to 12.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "terran-widow_mine",
+          "changes": [
+            {
+              "raw_text": "Attack launch delay increased from 0.85 seconds to 1.07 seconds.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-drone",
+          "changes": [
+            {
+              "raw_text": "Worker Start Count increased from 8 to 12.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-evolution_chamber",
+          "changes": [
+            {
+              "raw_text": "Carapace Upgrades Level 1 cost increased to 150/150 from 100/100.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Carapace Upgrades Level 2 cost increased to 200/200 from 150/150.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Carapace Upgrades Level 3 cost increased to 250/250 from 200/200.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-hatchery",
+          "changes": [
+            {
+              "raw_text": "Supplies increased from 4 to 6.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Cost reduced from 300 to 275.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Creep Spread/Recede delay reduced from 0.55 seconds to 0.45 seconds.",
+              "change_type": "mixed"
+            },
+            {
+              "raw_text": "Larva Periodic spawn rate increased from 9.9 seconds to 10.7 seconds.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-hive",
+          "changes": [
+            {
+              "raw_text": "Supplies increased from 4 to 6.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Cost reduced from 300 to 275.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-infestor",
+          "changes": [
+            {
+              "raw_text": "Microbial Shroud range decreased from 12 to 9.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Microbial Shroud must be researched from the Infestation Pit.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "No longer has a weapon.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-lair",
+          "changes": [
+            {
+              "raw_text": "Supplies increased from 4 to 6.",
+              "change_type": "buff"
+            },
+            {
+              "raw_text": "Cost reduced from 300 to 275.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-mutalisk",
+          "changes": [
+            {
+              "raw_text": "Mutalisk Glaive targeting no longer obeys attack priorities.",
+              "change_type": "nerf"
+            },
+            {
+              "raw_text": "Weapon arc bonus reduced from 180 to 45.",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-overlord",
+          "changes": [
+            {
+              "raw_text": "Base speed without Pneumatized Carapace increased from 0.85 seconds to 0.9 seconds.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-ravager",
+          "changes": [
+            {
+              "raw_text": "Forcefields now only take 1 bile to destroy, down from 2.",
+              "change_type": "buff"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-spore_crawler",
+          "changes": [
+            {
+              "raw_text": "Damage against Biological reduced from 20 (+15 vs Biological) to 20 (+10 vs Biological).",
+              "change_type": "nerf"
+            }
+          ]
+        },
+        {
+          "entity_id": "zerg-viper",
+          "changes": [
+            {
+              "raw_text": "Abduct can no longer be cast on Siege Tanks.",
+              "change_type": "nerf"
+            }
+          ]
+        }
+      ]
     }
   ],
   "units": [
@@ -8509,5 +8896,5 @@
       "liquipedia_url": "https://liquipedia.net/starcraft2/Zergling"
     }
   ],
-  "generated_at": "2026-07-20T22:23:39.135139+00:00"
+  "generated_at": "2026-10-01T18:43:53.895898+00:00"
 }

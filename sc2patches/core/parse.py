@@ -265,7 +265,10 @@ Return ONLY valid JSON matching the example format. Include ALL required fields.
         parsed_data = json.loads(content)
         return LLMPatchResponse(**parsed_data)
 
-    except (KeyError, IndexError, json.JSONDecodeError) as e:
+    except json.JSONDecodeError as e:
+        finish_reason = result["choices"][0].get("finish_reason")
+        raise ParseError(f"Failed to parse LLM response (finish_reason={finish_reason}): {e}\nContent:\n{content}") from e
+    except (KeyError, IndexError) as e:
         raise ParseError(f"Failed to parse LLM response: {e}") from e
 
 
